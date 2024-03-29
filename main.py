@@ -31,7 +31,7 @@ async def on_message(message):
 
 try:
   
-  token = "MTIxODEzMjk0MDMwMzc2NTU2NQ.GeSqWb.1OMKtv3HLAEArFVWWzFW_VUNbRqf1B_rLm6wzk+UV" 
+  token = "MTIxODEzMjk0MDMwMzc2NTU2NQ.GtwtJq.yGEM22Hfib4gm1SroABctl7n5SRzifw2bNvbe4" 
   if token == "":
     raise Exception("Please add your token to the Secrets pane.")
   client.run(token)
