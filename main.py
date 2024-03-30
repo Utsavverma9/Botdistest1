@@ -29,19 +29,9 @@ async def on_message(message):
       await message.channel.send('ok so you want help from the bot')
 
 
-try:
-  
-  token = "MTIxODEzMjk0MDMwMzc2NTU2NQ.GtwtJq.yGEM22Hfib4gm1SroABctl7n5SRzifw2bNvbe4" 
-  if token == "":
-    raise Exception("Please add your token to the Secrets pane.")
-  client.run(token)
-except discord.HTTPException as e:
-    if e.status == 429:
-        print(
-            "The Discord servers denied the connection for making too many requests"
-        )
-        print(
-            "Get help from https://stackoverflow.com/questions/66724687/in-discord-py-how-to-solve-the-error-for-toomanyrequests"
-        )
-    else:
-        raise e
+
+
+
+bot.run('MTIyMzIwNTU3NDQ4NTg3MjczMA.GC77Ws.12lsFsVij2MV7gpQ-2-UE1rLrxTtyvHbcmAtMU') 
+
+
